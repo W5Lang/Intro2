@@ -5,19 +5,17 @@ import { setupCounter } from './counter.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
+
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
     </a>
     <h1>Welcome Ladies N' Gents</h1>
+    <p class="read-the-docs">
+      This is how my website looks like, pretty cool aye?
+    </p>
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
-    <p class="read-the-docs">
-      This is how my website looks like initially, pretty cool aye?
-    </p>
   </div>
 `
 
