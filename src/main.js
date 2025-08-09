@@ -1,6 +1,5 @@
 import './style.css'
 import javascriptLogo from './5paedy.svg'
-import viteLogo from '/5paedy.svg'
 import { setupCounter } from './counter.js'
 
 document.querySelector('#app').innerHTML = `
