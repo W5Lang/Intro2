@@ -1,6 +1,6 @@
 import './style.css'
 import javascriptLogo from './5paedy.svg'
-import { setupCounter } from './counter.js'
+import { setupCounter } from './JavaScript.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -12,6 +12,9 @@ document.querySelector('#app').innerHTML = `
     <p class="read-the-docs">
       This is how my website looks like, pretty cool aye?
     </p>
+    <div class="card">
+      <button id="counter" type="button"></button>
+    </div>
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
