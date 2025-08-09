@@ -52,7 +52,7 @@ h1 {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #12df1caa);
+  filter: drop-shadow(0 0 2em #00ff0dee);
 }
 
 .card {
