@@ -6,7 +6,7 @@ import { setupCounter } from './counter.js'
 document.querySelector('#app').innerHTML = `
   <div>
 
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+    <a href="https://wawokee.gumroad.com/" target="_blank">
       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
     </a>
     <h1>Welcome Ladies N' Gents</h1>
