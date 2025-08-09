@@ -28,6 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #444; /* Gray background for all devices */
 }
 
 h1 {
@@ -36,9 +37,9 @@ h1 {
 }
 
 #app {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -92,5 +93,20 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+  .logo {
+    height: 8em;
+  }
+  .card {
+    padding: 1em;
+  }
+  #app {
+    padding: 0.5rem;
   }
 }
