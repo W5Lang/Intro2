@@ -13,3 +13,17 @@ export function setupCounter(element) {
     window.open(randomUrl, '_blank')
   })
 }
+
+export function setupDogButton(element) {
+  element.innerHTML = `Funny Dog Video`;
+  element.style.cursor = 'pointer';
+  const dogVideos = [
+    "https://www.youtube.com/watch?v=3yJvbVzlWZA",
+    "https://www.youtube.com/watch?v=zt8RXYZuz8Q",
+    "https://www.youtube.com/watch?v=kfXJOnEZTjc"
+  ];
+  element.addEventListener('click', () => {
+    const randomUrl = dogVideos[Math.floor(Math.random() * dogVideos.length)];
+    window.open(randomUrl, '_blank');
+  });
+}

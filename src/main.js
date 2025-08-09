@@ -1,6 +1,6 @@
 import './style.css'
 import javascriptLogo from './5paedy.svg'
-import { setupCounter } from './JavaScript.js'
+import { setupCounter, setupDogButton } from './JavaScript.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -15,10 +15,11 @@ document.querySelector('#app').innerHTML = `
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
-    <div class="card">
-      <button id="counter" type="button"></button>
+        <div class="card">
+      <button id="second-counter" type="button">Second Button</button>
     </div>
   </div>
 `
 
 setupCounter(document.querySelector('#counter'))
+setupDogButton(document.querySelector('#second-counter'))
